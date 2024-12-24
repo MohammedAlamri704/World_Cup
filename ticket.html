@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شراء التذكرة</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Almarai' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body dir="rtl" style="background-image: url('https://thumbs.dreamstime.com/z/fifa-world-cup-host-saudi-arabia-trophy-isolated-background-d-rendering-illustration-fifa-world-cup-host-saudi-arabia-295720126.jpg?ct=jpeg');">
+    <header>
+        <nav class="navbar" style="background-color:rgb(113, 222, 186)">
+            <div class="container">
+                <div>
+                    <img src="images/logo.jpg" alt="" width="60" height="60" class="rounded">
+                    <strong class="p-1">أهلًا بالجميع</strong>
+                </div>
+                <ul class="list list-inline">
+                    <li class="list list-inline-item p-1"><a href="index.html" class="text-decoration-none text-white"><i>الصفحة الرئيسية</i></a></li>
+                    <li class="list list-inline-item p-1"><i class="fa fa-twitter text-white" aria-hidden="true"></i></li>
+                    <li class="list list-inline-item p-1"><i class="fa fa-facebook text-white" aria-hidden="true"></i></li>
+                    <li class="list list-inline-item p-1"><i class="fa fa-snapchat text-white" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mt-5">
+            <h2 class="text-center text-success">شراء التذكرة</h2>
+            <form>
+                <!-- الاسم الكامل -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">الاسم الكامل</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+
+                <!-- العنوان -->
+                <div class="mb-3">
+                    <label for="address" class="form-label">العنوان</label>
+                    <input type="text" class="form-control" id="address" required>
+                </div>
+
+                <!-- رقم الجوال -->
+                <div class="mb-3">
+                    <label for="phone" class="form-label">رقم الجوال</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+
+                <!-- زر إرسال -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success">إتمام عملية الشراء</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
